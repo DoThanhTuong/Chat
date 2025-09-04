@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "66119128865",
+    "project_id": "demochattiktak",
+    "storage_bucket": "demochattiktak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66119128865:android:b3092701e77a61ed079060",
+        "android_client_info": {
+          "package_name": "com.example.chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgWxuIqd9MDBSR_1lTboUijJK_Y69hOuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

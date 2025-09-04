@@ -1,0 +1,27 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="24dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <ImageView android:id="@+id/imgAvatarPreview"
+            android:layout_width="100dp" android:layout_height="100dp"
+            android:src="@drawable/googleg_standard_color_18" android:scaleType="centerCrop"/>
+
+        <Button android:id="@+id/btnChooseAvatar" android:text="Chọn avatar"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/edtUserName" android:hint="Tên hiển thị"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/edtEmail" android:hint="Email"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+
+        <EditText android:id="@+id/edtPassword" android:hint="Password"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+        <Button android:id="@+id/btnRegister" android:text="Đăng ký"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
